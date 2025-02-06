@@ -11,7 +11,7 @@ header{
     background: blue;
     margin: auto;
     border-radius: 50px;
-    width: 200px;
+    width: fit-content;
 }
 
 section{
