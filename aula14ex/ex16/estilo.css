@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+body{
+    background: rgb(20, 20, 20);
+    font: normal 15pt arial;
+    color: gainsboro;
+}
+
+header{
+    text-align: center;
+    background: blue;
+    margin: auto;
+    border-radius: 50px;
+    width: fit-content;
+}
+
+section{
+    background: rgb(25, 25, 25);
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+}
+
+input[type='text'] {
+    border-radius: 25px;
+    border-color: gainsboro;
+    background-color: rgb(20, 20, 20);
+    color: gainsboro;
+}
+
+input[type='button'] {
+    background-color: transparent;
+    color: gainsboro;
+    border-radius: 50px;
+    border-color: gainsboro;
+}
+
+footer{
+    text-align: center;
+    font-style: italic;
+}
