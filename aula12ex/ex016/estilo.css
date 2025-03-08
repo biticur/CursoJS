@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+body {
+    background: rgb(20, 20, 20);
+    font: normal 15pt arial;
+    color: gainsboro;
+}
+
+header {
+    text-align: center;
+    background: blue;
+    margin: auto;
+    border-radius: 50px;
+    width: fit-content;
+}
+
+section {
+    background: rgb(25, 25, 25);
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+}
+
+#foto {
+    border-radius: 100%;
+    height: 250px;
+}
+
+footer {
+    text-align: center;
+    font-style: italic;
+}
