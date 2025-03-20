@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+body{
+    background: rgb(20, 20, 20);
+    font: normal 15pt arial;
+    color: gainsboro;
+}
+
+header{
+    text-align: center;
+    background: blue;
+    margin: auto;
+    border-radius: 50px;
+    width: fit-content;
+}
+
+section{
+    background: rgb(25, 25, 25);
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+}
+
+#num {
+    color: gainsboro;
+    background-color: transparent;
+    border: 1px solid gray;
+    border-radius: 50px;
+    padding: 5px;
+}
+
+button {
+    color: gainsboro;
+    background-color: blue;
+    cursor: pointer;
+    border: 01px ridge gray;
+    border-radius: 50px;
+    padding: 5px;
+    box-shadow: 0px 5px 10px black;
+    transition: 0.2s;
+}
+
+button:hover {
+    border-color: transparent;
+    box-shadow: 0px 0px 15px white;
+    text-shadow: 0px 4px 5px black;
+    transition: 0.1s;
+}
+
+button:active {
+    transform: scale(0.95);
+    box-shadow: 0px 0px 20px white;
+    text-shadow: 0px 7px 5px black;
+}
+
+select {
+    color: gainsboro;
+    background-color: rgb(20, 20, 20);
+    border: 1px, solid, gray;
+    border-radius: 10px;
+    width: 145px;
+}
+
+::-webkit-scrollbar {
+    background-color: blue;
+    border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: gainsboro;
+    border-radius: 50px;
+}
+
+footer{
+    text-align: center;
+    font-style: italic;
+}
